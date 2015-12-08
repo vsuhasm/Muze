@@ -1,0 +1,12 @@
+<template name="newstemplate">
+	<div class="container" id="newslist">
+		<div class="row" id="newsbody">
+			<div id="header"><p>MUZE</p></div>
+			<ol class="list-group">
+				{{#each news}}
+					<li class="list-group-item"><h4 class="list-group-item-heading">{{_id}}.&nbsp;&nbsp; <a href={{link}} target="_blank">{{title}}</a></h4></li>
+				{{/each}}
+			</ol>	
+		</div>
+	</div>
+</template>

@@ -1,0 +1,44 @@
+/* CSS declarations go here */
+h4 {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+li:hover {background-color: #f5f5f5}
+
+td, tr {
+	vertical-align: top;
+}
+
+table {
+	margin-top: 1%;
+	font-weight: bold;
+	font-style: sans-serif;
+	font-size: 1.5rem;
+}
+body {
+	background-color: #ff5b33;
+}
+
+#header {
+	margin-top: 1%;
+	margin-bottom: 3%;
+	margin-left: 1%;
+	margin-right: 1%;
+	text-align: center;
+	background-color: #ff5b33;
+  	font-size: 5rem;
+  	font-style: bold;
+}
+
+#newslist {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+#newsbody {
+	
+	padding: 1%;
+	background-color: white;	
+}
